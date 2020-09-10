@@ -1,0 +1,11 @@
+table {
+    font-family: Montserrat;
+    border-collapse: collapse;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: Montserrat;
+  }
+   
+  tbody:nth-child(even) {
+    background-color: #dddddd;
+  }
