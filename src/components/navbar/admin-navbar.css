@@ -1,0 +1,59 @@
+.admin-navbar{   
+    height: 60px;
+    margin-left: -12%;
+    width: 123.4%;
+    padding: 1.7%;
+    background-color: #046437;
+    margin-bottom: -3%;
+}
+.admin-navbar-left{
+    position: relative;
+    font-family: Montserrat;
+    float: left;
+    width: auto;
+}
+.admin-navbar-right{
+    float: right;
+    width: auto;
+    font-family: Montserrat;
+}
+.admin-navbar-left>a, .admin-navbar-left>span, .admin-navbar-right>a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    margin: 0 15%;
+}
+.admin-navbar-right>a:hover,a:focus,
+.admin-navbar-left>a:hover,a:focus,
+.admin-navbar-left>span:hover,span:focus{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.drop-down{
+    height: auto;
+    width: 142px;
+    padding-bottom: 1%;
+    color: white;
+    position: absolute;
+    font-family: Montserrat;
+    background-color: #5cb85c;
+    opacity: 0.8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 2;
+}
+.client-nav{
+    background-color: #5cb85c;
+    /* opacity: 0.6; */
+}
+.client-nav>span>a,.log{
+    color: white;    
+  font-size: medium;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.client-nav>span>a:hover,:focus,
+.client-nav>.log:hover,:focus{
+    color: black;
+}

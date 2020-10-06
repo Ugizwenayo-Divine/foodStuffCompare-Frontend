@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+.card-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 65%;
+  margin-left: 12rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border: 0 !important;
+  border-radius: 0.3rem !important;
+  margin-top: 5rem !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.font-weight-light {
+  font-weight: 300 !important;
+}
+.my-4 {
+  margin-top: 1.5rem !important;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.col-md-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+.mb-1 {
+  margin-top: 1rem !important;
+}
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center !important;
+  font-size: 80%;
+  font-weight: 400;
+}
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
