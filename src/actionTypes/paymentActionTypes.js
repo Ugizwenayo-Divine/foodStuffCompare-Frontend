@@ -1,0 +1,4 @@
+export const PAYMENT_START = 'PAYMENT_START';
+export const PAYMENT_END = 'PAYMENT_END';
+export const PAYMENT_SUCCESS = 'PAYMENT_SUCCESS';
+export const PAYMENT_FAILURE = 'PAYMENT_FAILURE';

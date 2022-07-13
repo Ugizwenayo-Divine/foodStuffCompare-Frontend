@@ -1,0 +1,65 @@
+body{
+    font-family: 'Montserrat';
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: auto;
+}
+.footer-left{
+    grid-column-start: 1;
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+}
+.footer-right{
+    grid-column-start: 4;
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+}
+.footer-social{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: auto;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.facebook, .twitter, .instagram{
+    margin: 0 15px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.facebook>a{
+    color: #4267B2;
+}
+.twitter>a{
+    color:#00acee;
+}
+.twitter>a:hover{
+    color:#0592ca;
+}
+.instagram>a{
+        color: #e95950;
+}
+.instagram>a:hover{
+    color: rgb(192, 9, 9);
+}
+h4{
+    margin-left: -8px;
+}
+hr{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.footer-copyright{
+    margin-top: -1%;
+    grid-column-start: 1;
+    grid-column-end: -2;
+    margin-left: auto;
+    margin-right: 23%;
+}
